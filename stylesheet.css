@@ -1,0 +1,91 @@
+body{
+	background-color: #f5f5f5;
+}
+header{
+	/*background-color: #FA2562;*/
+	height:80px;
+	padding:20px;
+}
+#title{
+	background-color: white;
+}
+.title{
+	background-color: #FF8833;
+}
+/*#1 two columns layout*/
+.col-left{
+	width:50%;
+	float: left;
+}
+.col-right{
+	width: 50%;
+	float:left;
+}
+.clear {
+	clear:both
+}
+/*#2 flexbox*/
+/*.display-flexbox{
+	display: flex;
+	flex:1;
+}
+.col-left{
+	flex:1;
+}
+.col-right{
+	flex:1;
+}*/
+/*#3 bootstrap*/
+/*.display-flexbox{
+	display: flex;
+	flex:1;
+}
+.col-left{
+	flex:1;
+}
+.col-right{
+	flex:1;
+}*/
+.profile-card{
+	max-width: 800px;
+	height: 400px;
+	background-color:transparent;
+	border-radius: 15px;
+}
+.profile-card .card-header{
+	padding:20px;
+	background-color: #FA2562;
+	border-radius: 15px 15px 0 0;
+}
+.bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url('./img/main_bg.png') 100% 100%;
+	top: 0;
+	left: 0;
+}
+.profile-card .card-header h2{
+	color:white;
+}
+.card-shadow{
+	box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.5);
+}
+.image-wrapper{
+	border-style: solid;
+	border-width: 4px;
+	border-color: white;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+}
+.image-wrapper .profile{
+	width: 100%;
+	height: 100%;
+}
+.text-center{
+	text-align: center;
+}
+.padding{
+	padding: 20px;
+}
