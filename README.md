@@ -8,6 +8,21 @@
 
 * live-server
 
+### Knowledge
+
+* background
+* background-color
+* width, height
+* float, clear
+* top,right, bottom, left
+* position relative, absolute
+* layout
+* flexbox
+* padding, margin
+* border,color
+* display
+* text-align
+
 ### Reference ###
 
 http://jiangren.com.au
