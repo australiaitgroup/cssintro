@@ -1,56 +1,57 @@
-<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>CSS Intro</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-	<link rel="stylesheet" href="./stylesheet.css">
+	<meta charset="UTF-8">
+	<title>John</title>
+	<link rel="stylesheet" href="./public/css/site.css">
 </head>
 <body>
-	<header>
-		<h1 id="title">CSS Intro</h1>
-		<!-- <h2 class="title">CSS Intro</h2>
-		<h3 class="title">CSS Intro</h3> -->
-	</header>
-	<section class="container">
-		<div class="profile-card card-shadow">
+	<section class="header">
+		<h1>John Doe</h1>
+	</section>
+	<section class="body container">
+		<div class="profile-card shadow">
 			<div class="card-header">
-				<div class="col-left text-center">
-					<div class="image-wrapper">
-						<img src="./img/photo.png" alt="john profile image" class="profile">
+				<div class="card-overlay-wrapper">
+					<div class="col-left">
+						<div class="img-wrapper">
+							<img src="./public/img/photo.png" alt="John Doe Public Profile">
+						</div>
 					</div>
+					<div class="col-right">
+						<div class="profile-info-header">
+							<h2>John Doe</h3>
+							<p>Frontend Developer</p>
+						</div>
+					</div>
+					<div class="clear"></div>
 				</div>
-				<div class="col-right">
-					<h2>John Doe</h2>
-					<p>Frontend Developer</p>
-				</div>
-				<div class="clear"></div>
-				<div class="bg-overlay">
-				</div>
+				<div class="over-lay"></div>
 			</div>
-			<div class="card-footer display-flexbox">
+			<div class="card-body">
 				<div class="col-left">
-					<div class="padding">
-						<h3>About Me</h3>
-						<p>Hello! I’m John Doe. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum ullamcorper sem, at placerat dolor volutpat ac. Duis nulla enim, condimentum nec ultricies.</p>
+					<div class="profile-info-body">
+						<h2>About Me</h2>
+						<p class="description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
 					</div>
-
 				</div>
 				<div class="col-right">
-					<div class="padding">
+					<div class="row">
 						<div class="col-left">
 							<p><strong>Age</strong></p>
 						</div>
 						<div class="col-right">
 							<p>29</p>
 						</div>
+						<div class="clear"></div>
 					</div>
+
 
 				</div>
 				<div class="clear"></div>
 			</div>
 		</div>
 	</section>
-
 </body>
+</html>
