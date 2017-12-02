@@ -1,3 +1,9 @@
+### What is About?
+
+@ 03 CSS introduction of Web Development Code Camp
+
+Training Course Introduction : http://jiangren.com.au/webdev
+
 ### How do I get set up? ###
 
 * install node
